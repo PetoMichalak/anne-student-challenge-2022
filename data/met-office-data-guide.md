@@ -8,6 +8,10 @@
 
 The Met Office offers [a historical station data](https://www.metoffice.gov.uk/research/climate/maps-and-data/historic-station-data) for 37 stations dating back as far as 1853 for some stations. The data consists of following records: year, month, temperature max, temperature min, rain, sun hours as well as location of the station.
 
+## UK and regional series
+
+Monthly, seasonal and annual measurements split into 17 regions providing 7 parameters such as: max/mean/min temperature, rainfall or day frost is available using open [UI interface](https://www.metoffice.gov.uk/research/climate/maps-and-data/uk-and-regional-series).
+
 ## The CEDA Archive
 [The CEDA Archive](https://archive.ceda.ac.uk/) holds data from atmospheric and earth observation with impressive 18 Petabytes archive. The environmental data from [Met Office MIDAS Open dataset](https://catalogue.ceda.ac.uk/uuid/dbd451271eb04662beade68da43546e1) contains 32 datasets, such as UK daily temperature, UK hourly rainfall, wind, solar radiation and others. For example, a user can retrieve a [xls table](https://data.ceda.ac.uk/badc/ukmo-midas-open/data/uk-daily-temperature-obs/dataset-version-202007/tyne-and-wear/00307_newcastle-weather-centre/qc-version-1) with two daily measurements of temperature in Newcastle since 1st October 1974.
 A free [registration](https://services.ceda.ac.uk/cedasite/register/info/) is required before accessing the CEDA archive.
