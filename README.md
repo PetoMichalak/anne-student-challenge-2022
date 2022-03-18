@@ -15,3 +15,11 @@ Set of resources to support participants accessing external data sources.
 [01-met-office-temp.ipynb](exploratory/01-met-office-temp.ipynb) is a Jupyter notebook that loads mean temperature for North of England and plots it with a fitted trend line.
 
 Found an issue? Please [let me know](https://github.com/PetoMichalak/anne-student-challenge-2022/issues).
+
+## Urban Observatory (UO)
+
+[Urban Observatory](https://urbanobservatory.ac.uk/) presents a large set of publicly available real time urban data in the UK with highest concentration of sensors placed around Newcastle. A [map-based UI](https://newcastle.urbanobservatory.ac.uk/) allows users to browse through the available sensors, filter them by type and show historical measurements.
+
+Access to the raw data is also possible through a [web-based portal](https://newcastle.urbanobservatory.ac.uk/download/raw_data/). Currently there are 1578 sensors with variety of types, such as: CO, PM, PM 4, Humidity, PM2.5, PM10, Temperature, Pressure, NO, NO2, PM1, Particle Count, O3.
+
+UO provides a [REST API](https://newcastle.urbanobservatory.ac.uk/api_docs/) that can be used to download the raw sensor data. [02-uo-api.ipynb](exploratory/02-uo-api.ipynb) is a Jupyter notebook file that shows how to pull a historical data from an UO API for a specific sensor. Data are then plotted. The notebook also queries all the sensors IDs per ['theme'](https://newcastle.urbanobservatory.ac.uk/api_docs/doc/themes-json/) for easier programmatic interaction.
