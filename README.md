@@ -23,3 +23,9 @@ Found an issue? Please [let me know](https://github.com/PetoMichalak/anne-studen
 Access to the raw data is also possible through a [web-based portal](https://newcastle.urbanobservatory.ac.uk/download/raw_data/). Currently there are 1578 sensors with variety of types, such as: CO, PM, PM 4, Humidity, PM2.5, PM10, Temperature, Pressure, NO, NO2, PM1, Particle Count, O3.
 
 UO provides a [REST API](https://newcastle.urbanobservatory.ac.uk/api_docs/) that can be used to download the raw sensor data. [02-uo-api.ipynb](exploratory/02-uo-api.ipynb) is a Jupyter notebook file that shows how to pull a historical data from an UO API for a specific sensor. Data are then plotted. The notebook also queries all the sensors IDs per ['theme'](https://newcastle.urbanobservatory.ac.uk/api_docs/doc/themes-json/) for easier programmatic interaction.
+
+## Department for Environment, Food & Rural Affairs (DEFRA)
+
+[DEFRA](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs) is a ministerial department responsible for improving and protecting the environment. It aims to grow a green economy and sustain thriving rural communities. It supports food, farming and fishing industries.
+
+DEFRA maintains an open [API portal](https://environment.data.gov.uk/apiportal) that provides access to data for Asset Management, Bathing Waters, Catchment Data, Ecology and Fish, Flood Monitoring, Hydrology, Public Registers, Rainfall, Rural Payments Agency Land, Tide Gauge, Water Quality Data Archive. In [03-defra-api.ipynb](exploratory/03-defra-api.ipynb) all of the latest measurements from flood monitoring API are queried from the API.

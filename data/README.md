@@ -9,3 +9,4 @@ Other resources:
 - [Met Office](./met-office-data-guide.md) data guide,
 - [Met Office](../exploratory/01-met-office-temp.ipynb) -- Jupyter notebook visualising Met Office temperature data,
 - [UO API example](../exploratory/02-uo-api.ipynb) -- Jupyter notebook pulling data from Urban Observatory REST API.
+- [DEFRA API example](../exploratory/03-defra-api.ipynb) -- Jupyter notebook using DEFRA's API to retrieve the latest measurements from all stations.
