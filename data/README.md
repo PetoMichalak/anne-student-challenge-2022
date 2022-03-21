@@ -8,5 +8,6 @@ Other resources:
 - [ONS data loading and visualisation](../exploratory/00-ons-example.ipynb) -- Jupyter notebook loading and visualising ONS datasets,
 - [Met Office](./met-office-data-guide.md) data guide,
 - [Met Office](../exploratory/01-met-office-temp.ipynb) -- Jupyter notebook visualising Met Office temperature data,
-- [UO API example](../exploratory/02-uo-api.ipynb) -- Jupyter notebook pulling data from Urban Observatory REST API.
-- [DEFRA API example](../exploratory/03-defra-api.ipynb) -- Jupyter notebook using DEFRA's API to retrieve the latest measurements from all stations.
+- [UO API example](../exploratory/02-uo-api.ipynb) -- Jupyter notebook pulling data from Urban Observatory REST API,
+- [DEFRA API example](../exploratory/03-defra-api.ipynb) -- Jupyter notebook using DEFRA's API to retrieve the latest measurements from all stations,
+- [DEFRA API map example](exploratory/03-defra-map.ipynb) -- Jupyter notebook using DEFRA API to plot location of all flood monitoring stations on an interactive map.
