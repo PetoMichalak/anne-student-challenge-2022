@@ -1,6 +1,6 @@
 # Development environment
 
-[Python](https://www.python.org) programming language is used to explore some of the datasets and API endpoints that are publicly available. In addition, several popular libraries were installed and the complete list of packages can be found in [environment.yaml](../environment.yaml) file that can be used with [Anaconda](https://www.anaconda.com/products/individual) package manager to reproduce it. [Visual Studio Code](https://code.visualstudio.com/) Integrated Development Environment was used for development.
+[Python](https://www.python.org) programming language is used to explore some of the datasets and API endpoints that are publicly available. In addition, several popular libraries were installed and the complete list of packages can be found in [environment.yaml](./environment.yaml) file that can be used with [Anaconda](https://www.anaconda.com/products/individual) package manager to reproduce it. [Visual Studio Code](https://code.visualstudio.com/) Integrated Development Environment was used for development.
 
 Following list of links to tools and tutorials might help newcomers to learn data science using Python:
 
